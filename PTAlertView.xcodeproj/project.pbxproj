@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34B6D691AC3DCFB00127A57 /* PTAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B6D681AC3DCFB00127A57 /* PTAlertView.swift */; };
+		F383CB871AC6580B0060B9E9 /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F383CB861AC6580B0060B9E9 /* SampleCollectionViewCell.xib */; };
+		F383CB8A1AC666C60060B9E9 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = F383CB891AC666C60060B9E9 /* glass.png */; };
+		F383CB8E1AC66F910060B9E9 /* SampleRedAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F383CB8D1AC66F910060B9E9 /* SampleRedAlertView.xib */; };
+		F383CB901AC670540060B9E9 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = F383CB8F1AC670540060B9E9 /* sample.png */; };
+		F383CB921AC672A90060B9E9 /* ShowAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383CB911AC672A90060B9E9 /* ShowAnimationManager.swift */; };
+		F383CB941AC6733A0060B9E9 /* DismissAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383CB931AC6733A0060B9E9 /* DismissAnimationManager.swift */; };
+		F38A9FDA1AC52CD70077998E /* PTAlertBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A9FD91AC52CD70077998E /* PTAlertBackgroundView.swift */; };
+		F38A9FDC1AC52FDF0077998E /* SampleAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A9FDB1AC52FDF0077998E /* SampleAlertView.swift */; };
+		F38A9FDE1AC5300F0077998E /* SampleAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38A9FDD1AC5300F0077998E /* SampleAlertView.xib */; };
+		F38A9FE41AC54DD30077998E /* DefaultPathAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A9FE31AC54DD30077998E /* DefaultPathAlertView.swift */; };
+		F38A9FE81AC55D850077998E /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A9FE71AC55D850077998E /* AlertAction.swift */; };
+		F39BE7501AC3D96500EC97EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39BE74F1AC3D96500EC97EB /* AppDelegate.swift */; };
+		F39BE7571AC3D96500EC97EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39BE7561AC3D96500EC97EB /* Images.xcassets */; };
+		F39BE75A1AC3D96500EC97EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39BE7581AC3D96500EC97EB /* LaunchScreen.xib */; };
+		F39BE7661AC3D96500EC97EB /* PathAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39BE7651AC3D96500EC97EB /* PathAlertViewTests.swift */; };
+		F39BE7701AC3D9BE00EC97EB /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39BE76F1AC3D9BE00EC97EB /* SampleViewController.xib */; };
+		F39BE7721AC3D9E100EC97EB /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39BE7711AC3D9E100EC97EB /* SampleViewController.swift */; };
+		F39BE7741AC3DC0500EC97EB /* PTAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39BE7731AC3DC0500EC97EB /* PTAlertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39BE7601AC3D96500EC97EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39BE7421AC3D96500EC97EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39BE7491AC3D96500EC97EB;
+			remoteInfo = PathAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F34B6D681AC3DCFB00127A57 /* PTAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTAlertView.swift; sourceTree = "<group>"; };
+		F34B6D6A1AC3DD5300127A57 /* PathAlertView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PathAlertView-Bridging-Header.h"; sourceTree = "<group>"; };
+		F383CB861AC6580B0060B9E9 /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		F383CB891AC666C60060B9E9 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		F383CB8D1AC66F910060B9E9 /* SampleRedAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleRedAlertView.xib; sourceTree = "<group>"; };
+		F383CB8F1AC670540060B9E9 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		F383CB911AC672A90060B9E9 /* ShowAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAnimationManager.swift; sourceTree = "<group>"; };
+		F383CB931AC6733A0060B9E9 /* DismissAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimationManager.swift; sourceTree = "<group>"; };
+		F38A9FD91AC52CD70077998E /* PTAlertBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTAlertBackgroundView.swift; sourceTree = "<group>"; };
+		F38A9FDB1AC52FDF0077998E /* SampleAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAlertView.swift; sourceTree = "<group>"; };
+		F38A9FDD1AC5300F0077998E /* SampleAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleAlertView.xib; sourceTree = "<group>"; };
+		F38A9FE31AC54DD30077998E /* DefaultPathAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPathAlertView.swift; sourceTree = "<group>"; };
+		F38A9FE71AC55D850077998E /* AlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		F39BE74A1AC3D96500EC97EB /* PTAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39BE74E1AC3D96500EC97EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39BE74F1AC3D96500EC97EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39BE7561AC3D96500EC97EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F39BE7591AC3D96500EC97EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F39BE75F1AC3D96500EC97EB /* PTAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39BE7641AC3D96500EC97EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39BE7651AC3D96500EC97EB /* PathAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathAlertViewTests.swift; sourceTree = "<group>"; };
+		F39BE76F1AC3D9BE00EC97EB /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		F39BE7711AC3D9E100EC97EB /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		F39BE7731AC3DC0500EC97EB /* PTAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTAlertViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39BE7471AC3D96500EC97EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39BE75C1AC3D96500EC97EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F383CB881AC666B30060B9E9 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F383CB8F1AC670540060B9E9 /* sample.png */,
+				F383CB891AC666C60060B9E9 /* glass.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		F38A9FDF1AC54CF70077998E /* PTAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F38A9FE71AC55D850077998E /* AlertAction.swift */,
+				F38A9FE31AC54DD30077998E /* DefaultPathAlertView.swift */,
+				F39BE7731AC3DC0500EC97EB /* PTAlertViewController.swift */,
+				F38A9FD91AC52CD70077998E /* PTAlertBackgroundView.swift */,
+				F34B6D681AC3DCFB00127A57 /* PTAlertView.swift */,
+				F383CB911AC672A90060B9E9 /* ShowAnimationManager.swift */,
+				F383CB931AC6733A0060B9E9 /* DismissAnimationManager.swift */,
+			);
+			name = PTAlertView;
+			sourceTree = "<group>";
+		};
+		F38A9FE01AC54D0D0077998E /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				F39BE7711AC3D9E100EC97EB /* SampleViewController.swift */,
+				F383CB861AC6580B0060B9E9 /* SampleCollectionViewCell.xib */,
+				F39BE76F1AC3D9BE00EC97EB /* SampleViewController.xib */,
+				F38A9FDB1AC52FDF0077998E /* SampleAlertView.swift */,
+				F38A9FDD1AC5300F0077998E /* SampleAlertView.xib */,
+				F383CB8D1AC66F910060B9E9 /* SampleRedAlertView.xib */,
+				F383CB881AC666B30060B9E9 /* image */,
+			);
+			name = Sample;
+			sourceTree = "<group>";
+		};
+		F39BE7411AC3D96500EC97EB = {
+			isa = PBXGroup;
+			children = (
+				F39BE74C1AC3D96500EC97EB /* PTAlertView */,
+				F39BE7621AC3D96500EC97EB /* PathAlertViewTests */,
+				F39BE74B1AC3D96500EC97EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39BE74B1AC3D96500EC97EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39BE74A1AC3D96500EC97EB /* PTAlertView.app */,
+				F39BE75F1AC3D96500EC97EB /* PTAlertViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39BE74C1AC3D96500EC97EB /* PTAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F39BE74F1AC3D96500EC97EB /* AppDelegate.swift */,
+				F38A9FE01AC54D0D0077998E /* Sample */,
+				F38A9FDF1AC54CF70077998E /* PTAlertView */,
+				F39BE7561AC3D96500EC97EB /* Images.xcassets */,
+				F39BE7581AC3D96500EC97EB /* LaunchScreen.xib */,
+				F39BE74D1AC3D96500EC97EB /* Supporting Files */,
+			);
+			name = PTAlertView;
+			path = PathAlertView;
+			sourceTree = "<group>";
+		};
+		F39BE74D1AC3D96500EC97EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39BE74E1AC3D96500EC97EB /* Info.plist */,
+				F34B6D6A1AC3DD5300127A57 /* PathAlertView-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F39BE7621AC3D96500EC97EB /* PathAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39BE7651AC3D96500EC97EB /* PathAlertViewTests.swift */,
+				F39BE7631AC3D96500EC97EB /* Supporting Files */,
+			);
+			path = PathAlertViewTests;
+			sourceTree = "<group>";
+		};
+		F39BE7631AC3D96500EC97EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39BE7641AC3D96500EC97EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39BE7491AC3D96500EC97EB /* PTAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39BE7691AC3D96500EC97EB /* Build configuration list for PBXNativeTarget "PTAlertView" */;
+			buildPhases = (
+				F39BE7461AC3D96500EC97EB /* Sources */,
+				F39BE7471AC3D96500EC97EB /* Frameworks */,
+				F39BE7481AC3D96500EC97EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PTAlertView;
+			productName = PathAlertView;
+			productReference = F39BE74A1AC3D96500EC97EB /* PTAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39BE75E1AC3D96500EC97EB /* PTAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39BE76C1AC3D96500EC97EB /* Build configuration list for PBXNativeTarget "PTAlertViewTests" */;
+			buildPhases = (
+				F39BE75B1AC3D96500EC97EB /* Sources */,
+				F39BE75C1AC3D96500EC97EB /* Frameworks */,
+				F39BE75D1AC3D96500EC97EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39BE7611AC3D96500EC97EB /* PBXTargetDependency */,
+			);
+			name = PTAlertViewTests;
+			productName = PathAlertViewTests;
+			productReference = F39BE75F1AC3D96500EC97EB /* PTAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39BE7421AC3D96500EC97EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "kobashi kazuki";
+				TargetAttributes = {
+					F39BE7491AC3D96500EC97EB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F39BE75E1AC3D96500EC97EB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F39BE7491AC3D96500EC97EB;
+					};
+				};
+			};
+			buildConfigurationList = F39BE7451AC3D96500EC97EB /* Build configuration list for PBXProject "PTAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39BE7411AC3D96500EC97EB;
+			productRefGroup = F39BE74B1AC3D96500EC97EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39BE7491AC3D96500EC97EB /* PTAlertView */,
+				F39BE75E1AC3D96500EC97EB /* PTAlertViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39BE7481AC3D96500EC97EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383CB8A1AC666C60060B9E9 /* glass.png in Resources */,
+				F39BE75A1AC3D96500EC97EB /* LaunchScreen.xib in Resources */,
+				F383CB871AC6580B0060B9E9 /* SampleCollectionViewCell.xib in Resources */,
+				F38A9FDE1AC5300F0077998E /* SampleAlertView.xib in Resources */,
+				F383CB8E1AC66F910060B9E9 /* SampleRedAlertView.xib in Resources */,
+				F39BE7701AC3D9BE00EC97EB /* SampleViewController.xib in Resources */,
+				F39BE7571AC3D96500EC97EB /* Images.xcassets in Resources */,
+				F383CB901AC670540060B9E9 /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39BE75D1AC3D96500EC97EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39BE7461AC3D96500EC97EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38A9FE81AC55D850077998E /* AlertAction.swift in Sources */,
+				F38A9FDC1AC52FDF0077998E /* SampleAlertView.swift in Sources */,
+				F39BE7741AC3DC0500EC97EB /* PTAlertViewController.swift in Sources */,
+				F39BE7501AC3D96500EC97EB /* AppDelegate.swift in Sources */,
+				F38A9FDA1AC52CD70077998E /* PTAlertBackgroundView.swift in Sources */,
+				F34B6D691AC3DCFB00127A57 /* PTAlertView.swift in Sources */,
+				F39BE7721AC3D9E100EC97EB /* SampleViewController.swift in Sources */,
+				F383CB921AC672A90060B9E9 /* ShowAnimationManager.swift in Sources */,
+				F38A9FE41AC54DD30077998E /* DefaultPathAlertView.swift in Sources */,
+				F383CB941AC6733A0060B9E9 /* DismissAnimationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39BE75B1AC3D96500EC97EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39BE7661AC3D96500EC97EB /* PathAlertViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39BE7611AC3D96500EC97EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39BE7491AC3D96500EC97EB /* PTAlertView */;
+			targetProxy = F39BE7601AC3D96500EC97EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39BE7581AC3D96500EC97EB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39BE7591AC3D96500EC97EB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39BE7671AC3D96500EC97EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Junpei Matsumura (KXC42ZZ5NP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Junpei Matsumura (KXC42ZZ5NP)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2E37DF46-FFCC-42AB-B5CE-AA159752BFC8";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PathAlertView/PathAlertView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F39BE7681AC3D96500EC97EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Junpei Matsumura (KXC42ZZ5NP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Junpei Matsumura (KXC42ZZ5NP)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2E37DF46-FFCC-42AB-B5CE-AA159752BFC8";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PathAlertView/PathAlertView-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39BE76A1AC3D96500EC97EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Junpei Matsumura (KXC42ZZ5NP)";
+				INFOPLIST_FILE = PathAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = PTAlertView;
+				PROVISIONING_PROFILE = "2E37DF46-FFCC-42AB-B5CE-AA159752BFC8";
+				SWIFT_OBJC_BRIDGING_HEADER = "PathAlertView/PathAlertView-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F39BE76B1AC3D96500EC97EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PathAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = PTAlertView;
+				PROVISIONING_PROFILE = "2E37DF46-FFCC-42AB-B5CE-AA159752BFC8";
+				SWIFT_OBJC_BRIDGING_HEADER = "PathAlertView/PathAlertView-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F39BE76D1AC3D96500EC97EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PathAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = PTAlertViewTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PathAlertView.app/PathAlertView";
+			};
+			name = Debug;
+		};
+		F39BE76E1AC3D96500EC97EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PathAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = PTAlertViewTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PathAlertView.app/PathAlertView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39BE7451AC3D96500EC97EB /* Build configuration list for PBXProject "PTAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39BE7671AC3D96500EC97EB /* Debug */,
+				F39BE7681AC3D96500EC97EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39BE7691AC3D96500EC97EB /* Build configuration list for PBXNativeTarget "PTAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39BE76A1AC3D96500EC97EB /* Debug */,
+				F39BE76B1AC3D96500EC97EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39BE76C1AC3D96500EC97EB /* Build configuration list for PBXNativeTarget "PTAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39BE76D1AC3D96500EC97EB /* Debug */,
+				F39BE76E1AC3D96500EC97EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39BE7421AC3D96500EC97EB /* Project object */;
+}
