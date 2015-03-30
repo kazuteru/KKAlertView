@@ -63,17 +63,17 @@ class PTAlertViewController: UIViewController {
             y: -alertView.bounds.height,
             width: UIScreen.mainScreen().bounds.width,
             height: UIScreen.mainScreen().bounds.height + alertView.bounds.height))
-        backView.cancel = { self.dismissPathAlertWindow() }
+        backView.cancel = { self.dismissPTAlertWindow() }
         if let backgroundViewColor = backgroundViewColor { backView.backgroundColorShowingAlert = backgroundViewColor }
         backView.setAlertView(alertView)
         view.addSubview(backView)
-        showPathAlertWindow()
+        showPTAlertWindow()
     }
     
     /**
     *  alertViewWindowの表示
     */
-    private func showPathAlertWindow() {
+    private func showPTAlertWindow() {
         var window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window.rootViewController = self
         window.addSubview(view)
@@ -85,7 +85,7 @@ class PTAlertViewController: UIViewController {
     /**
     *  alertViewWindowの非表示
     */
-    private func dismissPathAlertWindow() {
+    private func dismissPTAlertWindow() {
         if let alertWindow = alertWindow {
             println("deleteWindow")
             let application = UIApplication.sharedApplication()
