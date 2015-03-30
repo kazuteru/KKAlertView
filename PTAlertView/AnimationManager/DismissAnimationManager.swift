@@ -6,7 +6,8 @@
 //  Copyright (c) 2015年 kobashi kazuki. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
 class DismissAnimationManager {
     class var sharedInstance :DismissAnimationManager {
         struct Static {

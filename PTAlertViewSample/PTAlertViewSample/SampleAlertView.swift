@@ -6,6 +6,8 @@
 //  Copyright (c) 2015年 kobashi kazuki. All rights reserved.
 //
 
+import UIKit
+
 class SampleAlertView: PTAlertView {
     
     @IBOutlet weak var button: UIButton!

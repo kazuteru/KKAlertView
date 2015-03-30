@@ -1,15 +1,15 @@
 //
-//  PTAlertViewTests.swift
-//  PTAlertViewTests
+//  PTAlertViewSampleTests.swift
+//  PTAlertViewSampleTests
 //
-//  Created by 小橋　一輝 on 2015/03/26.
+//  Created by 小橋　一輝 on 2015/03/30.
 //  Copyright (c) 2015年 kobashi kazuki. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class PTAlertViewTests: XCTestCase {
+class PTAlertViewSampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
