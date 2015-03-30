@@ -6,7 +6,7 @@ PTAlertView
 [![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
 )](https://developer.apple.com/swift)
 
-![PTAlertView](https://github.com/kazuteru/PTAlertView/blob/master/PTAlertView/alertView.gif)   
+![PTAlertView](./SampleImage/alertView.gif)   
 
 
 [kazuteru/PTAlertView]
