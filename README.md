@@ -2,7 +2,7 @@ PTAlertView
 ====
 
 ![PTAlertView](https://github.com/kazuteru/PTAlertView/blob/master/PTAlertView/alertView.gif)
-[kazuteru/PTAlertView]
+  [kazuteru/PTAlertView]
 (https://github.com/kazuteru/PTAlertView) - You can easily display AlertView with the original animation
 
 ## Description
