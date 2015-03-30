@@ -26,6 +26,7 @@
 		F37BA26B1AC931D700283A3B /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F37BA2581AC931D700283A3B /* SampleViewController.xib */; };
 		F37BA26C1AC931D700283A3B /* ShowAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37BA2591AC931D700283A3B /* ShowAnimationManager.swift */; };
 		F37BA2761AC9320900283A3B /* PTAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37BA2741AC9320900283A3B /* PTAlertViewTests.swift */; };
+		F37BA27D1AC94BA400283A3B /* alertView.gif in Resources */ = {isa = PBXBuildFile; fileRef = F37BA27C1AC94BA400283A3B /* alertView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F37BA2591AC931D700283A3B /* ShowAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAnimationManager.swift; sourceTree = "<group>"; };
 		F37BA2731AC9320900283A3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F37BA2741AC9320900283A3B /* PTAlertViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTAlertViewTests.swift; sourceTree = "<group>"; };
+		F37BA27C1AC94BA400283A3B /* alertView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alertView.gif; sourceTree = "<group>"; };
 		F39BE74A1AC3D96500EC97EB /* PTAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39BE75F1AC3D96500EC97EB /* PTAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,9 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				F37BA2461AC931D700283A3B /* AppDelegate.swift */,
+				F37BA2771AC9353E00283A3B /* Sample */,
 				F37BA27B1AC9361900283A3B /* PTAlertView */,
 				F37BA2791AC9356900283A3B /* AnimationManager */,
-				F37BA2771AC9353E00283A3B /* Sample */,
 				F37BA27A1AC9358800283A3B /* Supporting File */,
 				F37BA2471AC931D700283A3B /* LaunchScreen.xib */,
 				F37BA24C1AC931D700283A3B /* Images.xcassets */,
@@ -123,6 +125,7 @@
 		F37BA2781AC9354900283A3B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F37BA27C1AC94BA400283A3B /* alertView.gif */,
 				F37BA2521AC931D700283A3B /* sample.png */,
 				F37BA24B1AC931D700283A3B /* glass.png */,
 			);
@@ -261,6 +264,7 @@
 				F37BA2601AC931D700283A3B /* Images.xcassets in Resources */,
 				F37BA25F1AC931D700283A3B /* glass.png in Resources */,
 				F37BA25C1AC931D700283A3B /* LaunchScreen.xib in Resources */,
+				F37BA27D1AC94BA400283A3B /* alertView.gif in Resources */,
 				F37BA2681AC931D700283A3B /* SampleCollectionViewCell.xib in Resources */,
 				F37BA2651AC931D700283A3B /* sample.png in Resources */,
 				F37BA26B1AC931D700283A3B /* SampleViewController.xib in Resources */,

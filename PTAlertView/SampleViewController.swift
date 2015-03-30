@@ -24,7 +24,7 @@ class SampleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        sampleAction = ["1 button", "2 button", "3 button", "original", "background", "sample"]
+        sampleAction = ["1 button alert", "2 button alert", "3 button alert", "original view alert", "changed background color", "sample"]
     }
     
     override func didReceiveMemoryWarning() {
@@ -65,21 +65,21 @@ extension SampleViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         switch indexPath.row {
         case 0:
-            var alertViewController = PTAlertViewController(title: "Shake It Off", message: "I stay up too late, got nothin' in my brain Thats what people say, thats what people say ")
-            alertViewController.addAction(title: "Blank Space", action: { println("Hello EX1") })
+            var alertViewController = PTAlertViewController(title: "1 button alert", message: "How many bagels could a beagle bake if a beagle could bake bagels?")
+            alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
             alertViewController.showAlert()
             break
         case 1:
-            var alertViewController = PTAlertViewController(title: "Shake It Off", message: "I stay up too late, got nothin' in my brain Thats what people say, thats what people say ")
-            alertViewController.addAction(title: "Blank Space", action: { println("Hello EX1") })
-            alertViewController.addAction(title: "22", action: { println("Hello EX3") })
+            var alertViewController = PTAlertViewController(title: "2 button alert", message: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?")
+            alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
+            alertViewController.addAction(title: "button B", action: { println("Hello EX2") })
             alertViewController.showAlert()
             break
         case 2:
-            var alertViewController = PTAlertViewController(title: "Shake It Off", message: "I stay up too late, got nothin' in my brain Thats what people say, thats what people say ")
-            alertViewController.addAction(title: "Blank Space", action: { println("Hello EX1") })
-            alertViewController.addAction(title: "22", action: { println("Hello EX2") })
-            alertViewController.addAction(title: "Mean", action: { println("Hello EX3") })
+            var alertViewController = PTAlertViewController(title: "3 button alert", message: "One smart fellow, he felt smart.Two smart fellows, they felt smart. Three smart fellows, they all felt smart.")
+            alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
+            alertViewController.addAction(title: "button B", action: { println("Hello EX2") })
+            alertViewController.addAction(title: "button C", action: { println("Hello EX3") })
             alertViewController.showAlert()
             break
         case 3:
