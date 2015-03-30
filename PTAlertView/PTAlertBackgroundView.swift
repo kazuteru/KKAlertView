@@ -34,19 +34,6 @@ class PTAlertBackgroundView: UIView {
     }
     
     func showAlertView() {
-//        self.alertView!.transform = CGAffineTransformMakeRotation(CGFloat(M_1_PI) / 2.0);
-//        UIView.animateWithDuration(
-//            0.1,
-//            delay: 0.0,
-//            options: UIViewAnimationOptions.CurveEaseIn,
-//            animations: {
-//                self.backgroundColor = self.backgroundColorShowingAlert
-//                self.alertView!.transform = CGAffineTransformMakeRotation(0);
-//            },
-//            completion:{
-//                (value: Bool) in
-//            }
-//        )
         //managerを使用
         ShowAnimationManager.sharedInstance.attachmentAnimation(self.animator,
             view: alertView!,
@@ -58,18 +45,6 @@ class PTAlertBackgroundView: UIView {
     
     func dismissAlertView() {
         //gravityBehaviorがdelegateをcatchできないため、UIViewのanimeのdelayを利用
-//        UIView.animateWithDuration(
-//            0.1,
-//            delay: 0.3,
-//            options: UIViewAnimationOptions.CurveEaseIn,
-//            animations: {
-//
-//            },
-//            completion:{
-//                (value: Bool) in
-//                if let cancel = self.cancel { cancel() }
-//            }
-//        )
         DismissAnimationManager.sharedInstance.gravityAnimation(self.animator,
             view: alertView!,
             animations: { self.backgroundColor = self.backgroundColorShowingAlert.colorWithAlphaComponent(0.0) },
