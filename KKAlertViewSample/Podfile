@@ -1,0 +1,3 @@
+platform :ios, "8.0"
+pod 'KKAlertView', :path => '../'
+use_frameworks!

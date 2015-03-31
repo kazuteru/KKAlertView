@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KKAlertView
 
 class SampleViewController: UIViewController {
     

@@ -1,0 +1,14 @@
+PODS:
+  - KKAlertView (0.1.1)
+
+DEPENDENCIES:
+  - KKAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  KKAlertView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KKAlertView: 7ae68959bb415798accbea5e859cc1f5d9d698f6
+
+COCOAPODS: 0.36.0

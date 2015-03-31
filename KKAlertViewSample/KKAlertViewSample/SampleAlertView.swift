@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KKAlertView
 
 class SampleAlertView: KKAlertView {
     

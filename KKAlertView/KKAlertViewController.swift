@@ -11,54 +11,53 @@ import UIKit
 /**
 *  Alertの挙動を操作する.
 */
-class KKAlertViewController: UIViewController {
+public class KKAlertViewController: UIViewController {
     
     var backView: KKAlertBackgroundView!
     var alertWindow: UIWindow?
     //AnimationPattern
-    var pattern: AnyObject?
+    public var pattern: AnyObject?
     //背景タップでアラートをdismissするかどうか
-    var canDisimissAlertToTouchBack = true
+    public var canDisimissAlertToTouchBack = true
     //背景色を設定
-    var backgroundViewColor: UIColor?
+    public var backgroundViewColor: UIColor?
     
     var defaultAlertView: DefaultKKAlertView?
     
-    override init() {
+    public override init() {
         super.init()
-        
     }
     
-    override init(nibName:String!, bundle: NSBundle!) {
+    public override init(nibName:String!, bundle: NSBundle!) {
         super.init(nibName: nibName, bundle: bundle)
     }
     
-    init(view :UIView) {
+    public init(view :UIView) {
        super.init()
     }
     
-    init(view: KKAlertView) {
+    public init(view: KKAlertView) {
        super.init()
     }
     
-    init(title: String?, message: String?) {
+    public init(title: String?, message: String?) {
         super.init()
         defaultAlertView = DefaultKKAlertView(title: title, message: message)
     }
     
-    required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func addAction(#title: String, action: (() -> Void)?) {
+    public func addAction(#title: String, action: (() -> Void)?) {
         if let defaultAlertView = defaultAlertView { defaultAlertView.addAction(AlertAction(title: title, action: action)) }
     }
     
-    func showAlert() {
+    public func showAlert() {
         if let defaultAlertView = defaultAlertView { showAlert(defaultAlertView.createAlertView()) }
     }
     
-    func showAlert(alertView: UIView) {
+    public func showAlert(alertView: UIView) {
         backView = KKAlertBackgroundView(frame: CGRect(x: 0.0,
             y: -alertView.bounds.height,
             width: UIScreen.mainScreen().bounds.width,

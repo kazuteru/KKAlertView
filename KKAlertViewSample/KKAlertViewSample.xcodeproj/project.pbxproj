@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FEAC29C3BB1AD4451D3A3DC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97B6492D3CAE5A516DB7F44 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F357FBDF1ACA9E17006B4660 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F357FBDE1ACA9E17006B4660 /* Images.xcassets */; };
 		F357FBE21ACA9E17006B4660 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F357FBE01ACA9E17006B4660 /* LaunchScreen.xib */; };
 		F357FBEE1ACA9E17006B4660 /* KKAlertViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FBED1ACA9E17006B4660 /* KKAlertViewSampleTests.swift */; };
@@ -19,13 +20,6 @@
 		F357FC041ACA9E55006B4660 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F357FBFD1ACA9E55006B4660 /* SampleViewController.xib */; };
 		F357FC181ACA9E78006B4660 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = F357FC161ACA9E78006B4660 /* glass.png */; };
 		F357FC191ACA9E78006B4660 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = F357FC171ACA9E78006B4660 /* sample.png */; };
-		F357FC231ACA9F19006B4660 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC1B1ACA9F19006B4660 /* AlertAction.swift */; };
-		F357FC241ACA9F19006B4660 /* DismissAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC1D1ACA9F19006B4660 /* DismissAnimationManager.swift */; };
-		F357FC251ACA9F19006B4660 /* ShowAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC1E1ACA9F19006B4660 /* ShowAnimationManager.swift */; };
-		F357FC261ACA9F19006B4660 /* DefaultPathAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC1F1ACA9F19006B4660 /* DefaultPathAlertView.swift */; };
-		F357FC271ACA9F19006B4660 /* KKAlertBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC201ACA9F19006B4660 /* KKAlertBackgroundView.swift */; };
-		F357FC281ACA9F19006B4660 /* KKAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC211ACA9F19006B4660 /* KKAlertView.swift */; };
-		F357FC291ACA9F19006B4660 /* KKAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC221ACA9F19006B4660 /* KKAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		355D36C8D92A4F8ABD6CADA4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		96CC56ACF62919AF6C8577CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B97B6492D3CAE5A516DB7F44 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F357FBD21ACA9E17006B4660 /* KKAlertViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKAlertViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F357FBD61ACA9E17006B4660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F357FBDE1ACA9E17006B4660 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,13 +52,6 @@
 		F357FBFD1ACA9E55006B4660 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
 		F357FC161ACA9E78006B4660 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
 		F357FC171ACA9E78006B4660 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
-		F357FC1B1ACA9F19006B4660 /* AlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
-		F357FC1D1ACA9F19006B4660 /* DismissAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimationManager.swift; sourceTree = "<group>"; };
-		F357FC1E1ACA9F19006B4660 /* ShowAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAnimationManager.swift; sourceTree = "<group>"; };
-		F357FC1F1ACA9F19006B4660 /* DefaultPathAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPathAlertView.swift; sourceTree = "<group>"; };
-		F357FC201ACA9F19006B4660 /* KKAlertBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKAlertBackgroundView.swift; sourceTree = "<group>"; };
-		F357FC211ACA9F19006B4660 /* KKAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKAlertView.swift; sourceTree = "<group>"; };
-		F357FC221ACA9F19006B4660 /* KKAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEAC29C3BB1AD4451D3A3DC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84504815273BDDBAC0DF6710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B97B6492D3CAE5A516DB7F44 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA29C5B07C29D2A23302D21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				355D36C8D92A4F8ABD6CADA4 /* Pods.debug.xcconfig */,
+				96CC56ACF62919AF6C8577CC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F357FBC91ACA9E17006B4660 = {
 			isa = PBXGroup;
 			children = (
 				F357FBD41ACA9E17006B4660 /* KKAlertViewSample */,
 				F357FBEA1ACA9E17006B4660 /* KKAlertViewSampleTests */,
 				F357FBD31ACA9E17006B4660 /* Products */,
+				8EA29C5B07C29D2A23302D21 /* Pods */,
+				84504815273BDDBAC0DF6710 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +120,6 @@
 				F357FBFB1ACA9E55006B4660 /* SampleRedAlertView.xib */,
 				F357FBFC1ACA9E55006B4660 /* SampleViewController.swift */,
 				F357FBFD1ACA9E55006B4660 /* SampleViewController.xib */,
-				F357FC1A1ACA9F19006B4660 /* KKAlertView */,
 				F357FC151ACA9E78006B4660 /* image */,
 				F357FBDE1ACA9E17006B4660 /* Images.xcassets */,
 				F357FBE01ACA9E17006B4660 /* LaunchScreen.xib */,
@@ -153,28 +162,6 @@
 			path = image;
 			sourceTree = "<group>";
 		};
-		F357FC1A1ACA9F19006B4660 /* KKAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				F357FC1B1ACA9F19006B4660 /* AlertAction.swift */,
-				F357FC1C1ACA9F19006B4660 /* AnimationManager */,
-				F357FC1F1ACA9F19006B4660 /* DefaultPathAlertView.swift */,
-				F357FC201ACA9F19006B4660 /* KKAlertBackgroundView.swift */,
-				F357FC211ACA9F19006B4660 /* KKAlertView.swift */,
-				F357FC221ACA9F19006B4660 /* KKAlertViewController.swift */,
-			);
-			path = KKAlertView;
-			sourceTree = "<group>";
-		};
-		F357FC1C1ACA9F19006B4660 /* AnimationManager */ = {
-			isa = PBXGroup;
-			children = (
-				F357FC1D1ACA9F19006B4660 /* DismissAnimationManager.swift */,
-				F357FC1E1ACA9F19006B4660 /* ShowAnimationManager.swift */,
-			);
-			path = AnimationManager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F357FBF11ACA9E17006B4660 /* Build configuration list for PBXNativeTarget "KKAlertViewSample" */;
 			buildPhases = (
+				EC71040498A69777EB6E3AFA /* Check Pods Manifest.lock */,
 				F357FBCE1ACA9E17006B4660 /* Sources */,
 				F357FBCF1ACA9E17006B4660 /* Frameworks */,
 				F357FBD01ACA9E17006B4660 /* Resources */,
+				433D1E2A049EECDB4B41EF78 /* Embed Pods Frameworks */,
+				29B6DC5CB3180AB599BD9B63 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,21 +265,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29B6DC5CB3180AB599BD9B63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		433D1E2A049EECDB4B41EF78 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC71040498A69777EB6E3AFA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F357FBCE1ACA9E17006B4660 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F357FC261ACA9F19006B4660 /* DefaultPathAlertView.swift in Sources */,
-				F357FC291ACA9F19006B4660 /* KKAlertViewController.swift in Sources */,
 				F357FBFE1ACA9E55006B4660 /* AppDelegate.swift in Sources */,
-				F357FC281ACA9F19006B4660 /* KKAlertView.swift in Sources */,
-				F357FC251ACA9F19006B4660 /* ShowAnimationManager.swift in Sources */,
 				F357FBFF1ACA9E55006B4660 /* SampleAlertView.swift in Sources */,
-				F357FC231ACA9F19006B4660 /* AlertAction.swift in Sources */,
 				F357FC031ACA9E55006B4660 /* SampleViewController.swift in Sources */,
-				F357FC241ACA9F19006B4660 /* DismissAnimationManager.swift in Sources */,
-				F357FC271ACA9F19006B4660 /* KKAlertBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +433,7 @@
 		};
 		F357FBF21ACA9E17006B4660 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355D36C8D92A4F8ABD6CADA4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -415,6 +447,7 @@
 		};
 		F357FBF31ACA9E17006B4660 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CC56ACF62919AF6C8577CC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

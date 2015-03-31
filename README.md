@@ -1,4 +1,4 @@
-PTAlertView
+KKAlertView
 ====
 
 [![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
@@ -10,7 +10,7 @@ PTAlertView
 
 
 [kazuteru/PTAlertView]
-(https://github.com/kazuteru/PTAlertView) - You can easily display AlertView with the original animation
+(https://github.com/kazuteru/KKAlertView) - You can easily display AlertView with the original animation
 
 ## Description
 

@@ -8,27 +8,27 @@
 
 import UIKit
 
-@objc protocol KKAlertViewDelegate {
+@objc public protocol KKAlertViewDelegate {
     optional func dismissAlertView(KKAlertView: KKAlertView)
 }
 
-class KKAlertView: UIView {
+public class KKAlertView: UIView {
     
-    var delegate: KKAlertViewDelegate? = nil
+    public var delegate: KKAlertViewDelegate?
     
-    override init () {
+    public override init () {
         super.init()
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    func dismiss() {
+    public func dismiss() {
         if let delegate = delegate { delegate.dismissAlertView!(self) }
     }
 }
