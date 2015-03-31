@@ -1,6 +1,6 @@
 //
-//  PTAlertView.swift
-//  PTAlertView
+//  KKAlertView.swift
+//  KKAlertView
 //
 //  Created by 小橋　一輝 on 2015/03/26.
 //  Copyright (c) 2015年 kobashi kazuki. All rights reserved.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-@objc protocol PTAlertViewDelegate {
-    optional func dismissAlertView(PTAlertView: PTAlertView)
+@objc protocol KKAlertViewDelegate {
+    optional func dismissAlertView(KKAlertView: KKAlertView)
 }
 
-class PTAlertView: UIView {
+class KKAlertView: UIView {
     
-    var delegate: PTAlertViewDelegate? = nil
+    var delegate: KKAlertViewDelegate? = nil
     
     override init () {
         super.init()

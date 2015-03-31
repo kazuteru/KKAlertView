@@ -1,6 +1,6 @@
 //
 //  SampleViewController.swift
-//  PTAlertView
+//  KKAlertView
 //
 //  Created by 小橋　一輝 on 2015/03/26.
 //  Copyright (c) 2015年 kobashi kazuki. All rights reserved.
@@ -65,18 +65,18 @@ extension SampleViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         switch indexPath.row {
         case 0:
-            var alertViewController = PTAlertViewController(title: "1 button alert", message: "How many bagels could a beagle bake if a beagle could bake bagels?")
+            var alertViewController = KKAlertViewController(title: "1 button alert", message: "How many bagels could a beagle bake if a beagle could bake bagels?")
             alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
             alertViewController.showAlert()
             break
         case 1:
-            var alertViewController = PTAlertViewController(title: "2 button alert", message: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?")
+            var alertViewController = KKAlertViewController(title: "2 button alert", message: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?")
             alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
             alertViewController.addAction(title: "button B", action: { println("Hello EX2") })
             alertViewController.showAlert()
             break
         case 2:
-            var alertViewController = PTAlertViewController(title: "3 button alert", message: "One smart fellow, he felt smart.Two smart fellows, they felt smart. Three smart fellows, they all felt smart.")
+            var alertViewController = KKAlertViewController(title: "3 button alert", message: "One smart fellow, he felt smart.Two smart fellows, they felt smart. Three smart fellows, they all felt smart.")
             alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
             alertViewController.addAction(title: "button B", action: { println("Hello EX2") })
             alertViewController.addAction(title: "button C", action: { println("Hello EX3") })
@@ -84,11 +84,11 @@ extension SampleViewController: UICollectionViewDelegate {
             break
         case 3:
             let view: SampleAlertView = UINib(nibName: "SampleAlertView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as SampleAlertView
-            PTAlertViewController().showAlert(view)
+            KKAlertViewController().showAlert(view)
             break
         case 4:
             let view: SampleAlertView = UINib(nibName: "SampleRedAlertView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as SampleAlertView
-            var alertViewController = PTAlertViewController()
+            var alertViewController = KKAlertViewController()
             alertViewController.backgroundViewColor = UIColor.redColor().colorWithAlphaComponent(0.5)
             alertViewController.showAlert(view)
             break

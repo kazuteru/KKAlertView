@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F357FBDF1ACA9E17006B4660 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F357FBDE1ACA9E17006B4660 /* Images.xcassets */; };
+		F357FBE21ACA9E17006B4660 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F357FBE01ACA9E17006B4660 /* LaunchScreen.xib */; };
+		F357FBEE1ACA9E17006B4660 /* KKAlertViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FBED1ACA9E17006B4660 /* KKAlertViewSampleTests.swift */; };
+		F357FBFE1ACA9E55006B4660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FBF71ACA9E55006B4660 /* AppDelegate.swift */; };
+		F357FBFF1ACA9E55006B4660 /* SampleAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FBF81ACA9E55006B4660 /* SampleAlertView.swift */; };
+		F357FC001ACA9E55006B4660 /* SampleAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F357FBF91ACA9E55006B4660 /* SampleAlertView.xib */; };
+		F357FC011ACA9E55006B4660 /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F357FBFA1ACA9E55006B4660 /* SampleCollectionViewCell.xib */; };
+		F357FC021ACA9E55006B4660 /* SampleRedAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F357FBFB1ACA9E55006B4660 /* SampleRedAlertView.xib */; };
+		F357FC031ACA9E55006B4660 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FBFC1ACA9E55006B4660 /* SampleViewController.swift */; };
+		F357FC041ACA9E55006B4660 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F357FBFD1ACA9E55006B4660 /* SampleViewController.xib */; };
+		F357FC181ACA9E78006B4660 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = F357FC161ACA9E78006B4660 /* glass.png */; };
+		F357FC191ACA9E78006B4660 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = F357FC171ACA9E78006B4660 /* sample.png */; };
+		F357FC231ACA9F19006B4660 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC1B1ACA9F19006B4660 /* AlertAction.swift */; };
+		F357FC241ACA9F19006B4660 /* DismissAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC1D1ACA9F19006B4660 /* DismissAnimationManager.swift */; };
+		F357FC251ACA9F19006B4660 /* ShowAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC1E1ACA9F19006B4660 /* ShowAnimationManager.swift */; };
+		F357FC261ACA9F19006B4660 /* DefaultPathAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC1F1ACA9F19006B4660 /* DefaultPathAlertView.swift */; };
+		F357FC271ACA9F19006B4660 /* KKAlertBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC201ACA9F19006B4660 /* KKAlertBackgroundView.swift */; };
+		F357FC281ACA9F19006B4660 /* KKAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC211ACA9F19006B4660 /* KKAlertView.swift */; };
+		F357FC291ACA9F19006B4660 /* KKAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357FC221ACA9F19006B4660 /* KKAlertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F357FBE81ACA9E17006B4660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F357FBCA1ACA9E17006B4660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F357FBD11ACA9E17006B4660;
+			remoteInfo = KKAlertViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F357FBD21ACA9E17006B4660 /* KKAlertViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKAlertViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F357FBD61ACA9E17006B4660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F357FBDE1ACA9E17006B4660 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F357FBE11ACA9E17006B4660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F357FBE71ACA9E17006B4660 /* KKAlertViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKAlertViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F357FBEC1ACA9E17006B4660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F357FBED1ACA9E17006B4660 /* KKAlertViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKAlertViewSampleTests.swift; sourceTree = "<group>"; };
+		F357FBF71ACA9E55006B4660 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F357FBF81ACA9E55006B4660 /* SampleAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAlertView.swift; sourceTree = "<group>"; };
+		F357FBF91ACA9E55006B4660 /* SampleAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleAlertView.xib; sourceTree = "<group>"; };
+		F357FBFA1ACA9E55006B4660 /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		F357FBFB1ACA9E55006B4660 /* SampleRedAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleRedAlertView.xib; sourceTree = "<group>"; };
+		F357FBFC1ACA9E55006B4660 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		F357FBFD1ACA9E55006B4660 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		F357FC161ACA9E78006B4660 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		F357FC171ACA9E78006B4660 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		F357FC1B1ACA9F19006B4660 /* AlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		F357FC1D1ACA9F19006B4660 /* DismissAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimationManager.swift; sourceTree = "<group>"; };
+		F357FC1E1ACA9F19006B4660 /* ShowAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAnimationManager.swift; sourceTree = "<group>"; };
+		F357FC1F1ACA9F19006B4660 /* DefaultPathAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPathAlertView.swift; sourceTree = "<group>"; };
+		F357FC201ACA9F19006B4660 /* KKAlertBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKAlertBackgroundView.swift; sourceTree = "<group>"; };
+		F357FC211ACA9F19006B4660 /* KKAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKAlertView.swift; sourceTree = "<group>"; };
+		F357FC221ACA9F19006B4660 /* KKAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKAlertViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F357FBCF1ACA9E17006B4660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357FBE41ACA9E17006B4660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F357FBC91ACA9E17006B4660 = {
+			isa = PBXGroup;
+			children = (
+				F357FBD41ACA9E17006B4660 /* KKAlertViewSample */,
+				F357FBEA1ACA9E17006B4660 /* KKAlertViewSampleTests */,
+				F357FBD31ACA9E17006B4660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F357FBD31ACA9E17006B4660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F357FBD21ACA9E17006B4660 /* KKAlertViewSample.app */,
+				F357FBE71ACA9E17006B4660 /* KKAlertViewSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F357FBD41ACA9E17006B4660 /* KKAlertViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				F357FBF71ACA9E55006B4660 /* AppDelegate.swift */,
+				F357FBF81ACA9E55006B4660 /* SampleAlertView.swift */,
+				F357FBF91ACA9E55006B4660 /* SampleAlertView.xib */,
+				F357FBFA1ACA9E55006B4660 /* SampleCollectionViewCell.xib */,
+				F357FBFB1ACA9E55006B4660 /* SampleRedAlertView.xib */,
+				F357FBFC1ACA9E55006B4660 /* SampleViewController.swift */,
+				F357FBFD1ACA9E55006B4660 /* SampleViewController.xib */,
+				F357FC1A1ACA9F19006B4660 /* KKAlertView */,
+				F357FC151ACA9E78006B4660 /* image */,
+				F357FBDE1ACA9E17006B4660 /* Images.xcassets */,
+				F357FBE01ACA9E17006B4660 /* LaunchScreen.xib */,
+				F357FBD51ACA9E17006B4660 /* Supporting Files */,
+			);
+			path = KKAlertViewSample;
+			sourceTree = "<group>";
+		};
+		F357FBD51ACA9E17006B4660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F357FBD61ACA9E17006B4660 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F357FBEA1ACA9E17006B4660 /* KKAlertViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F357FBED1ACA9E17006B4660 /* KKAlertViewSampleTests.swift */,
+				F357FBEB1ACA9E17006B4660 /* Supporting Files */,
+			);
+			path = KKAlertViewSampleTests;
+			sourceTree = "<group>";
+		};
+		F357FBEB1ACA9E17006B4660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F357FBEC1ACA9E17006B4660 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F357FC151ACA9E78006B4660 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F357FC161ACA9E78006B4660 /* glass.png */,
+				F357FC171ACA9E78006B4660 /* sample.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F357FC1A1ACA9F19006B4660 /* KKAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F357FC1B1ACA9F19006B4660 /* AlertAction.swift */,
+				F357FC1C1ACA9F19006B4660 /* AnimationManager */,
+				F357FC1F1ACA9F19006B4660 /* DefaultPathAlertView.swift */,
+				F357FC201ACA9F19006B4660 /* KKAlertBackgroundView.swift */,
+				F357FC211ACA9F19006B4660 /* KKAlertView.swift */,
+				F357FC221ACA9F19006B4660 /* KKAlertViewController.swift */,
+			);
+			path = KKAlertView;
+			sourceTree = "<group>";
+		};
+		F357FC1C1ACA9F19006B4660 /* AnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				F357FC1D1ACA9F19006B4660 /* DismissAnimationManager.swift */,
+				F357FC1E1ACA9F19006B4660 /* ShowAnimationManager.swift */,
+			);
+			path = AnimationManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F357FBD11ACA9E17006B4660 /* KKAlertViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F357FBF11ACA9E17006B4660 /* Build configuration list for PBXNativeTarget "KKAlertViewSample" */;
+			buildPhases = (
+				F357FBCE1ACA9E17006B4660 /* Sources */,
+				F357FBCF1ACA9E17006B4660 /* Frameworks */,
+				F357FBD01ACA9E17006B4660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKAlertViewSample;
+			productName = KKAlertViewSample;
+			productReference = F357FBD21ACA9E17006B4660 /* KKAlertViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F357FBE61ACA9E17006B4660 /* KKAlertViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F357FBF41ACA9E17006B4660 /* Build configuration list for PBXNativeTarget "KKAlertViewSampleTests" */;
+			buildPhases = (
+				F357FBE31ACA9E17006B4660 /* Sources */,
+				F357FBE41ACA9E17006B4660 /* Frameworks */,
+				F357FBE51ACA9E17006B4660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F357FBE91ACA9E17006B4660 /* PBXTargetDependency */,
+			);
+			name = KKAlertViewSampleTests;
+			productName = KKAlertViewSampleTests;
+			productReference = F357FBE71ACA9E17006B4660 /* KKAlertViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F357FBCA1ACA9E17006B4660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "kobashi kazuki";
+				TargetAttributes = {
+					F357FBD11ACA9E17006B4660 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F357FBE61ACA9E17006B4660 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F357FBD11ACA9E17006B4660;
+					};
+				};
+			};
+			buildConfigurationList = F357FBCD1ACA9E17006B4660 /* Build configuration list for PBXProject "KKAlertViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F357FBC91ACA9E17006B4660;
+			productRefGroup = F357FBD31ACA9E17006B4660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F357FBD11ACA9E17006B4660 /* KKAlertViewSample */,
+				F357FBE61ACA9E17006B4660 /* KKAlertViewSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F357FBD01ACA9E17006B4660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357FBE21ACA9E17006B4660 /* LaunchScreen.xib in Resources */,
+				F357FC001ACA9E55006B4660 /* SampleAlertView.xib in Resources */,
+				F357FC011ACA9E55006B4660 /* SampleCollectionViewCell.xib in Resources */,
+				F357FC021ACA9E55006B4660 /* SampleRedAlertView.xib in Resources */,
+				F357FC181ACA9E78006B4660 /* glass.png in Resources */,
+				F357FC041ACA9E55006B4660 /* SampleViewController.xib in Resources */,
+				F357FBDF1ACA9E17006B4660 /* Images.xcassets in Resources */,
+				F357FC191ACA9E78006B4660 /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357FBE51ACA9E17006B4660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F357FBCE1ACA9E17006B4660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357FC261ACA9F19006B4660 /* DefaultPathAlertView.swift in Sources */,
+				F357FC291ACA9F19006B4660 /* KKAlertViewController.swift in Sources */,
+				F357FBFE1ACA9E55006B4660 /* AppDelegate.swift in Sources */,
+				F357FC281ACA9F19006B4660 /* KKAlertView.swift in Sources */,
+				F357FC251ACA9F19006B4660 /* ShowAnimationManager.swift in Sources */,
+				F357FBFF1ACA9E55006B4660 /* SampleAlertView.swift in Sources */,
+				F357FC231ACA9F19006B4660 /* AlertAction.swift in Sources */,
+				F357FC031ACA9E55006B4660 /* SampleViewController.swift in Sources */,
+				F357FC241ACA9F19006B4660 /* DismissAnimationManager.swift in Sources */,
+				F357FC271ACA9F19006B4660 /* KKAlertBackgroundView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357FBE31ACA9E17006B4660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357FBEE1ACA9E17006B4660 /* KKAlertViewSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F357FBE91ACA9E17006B4660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F357FBD11ACA9E17006B4660 /* KKAlertViewSample */;
+			targetProxy = F357FBE81ACA9E17006B4660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F357FBE01ACA9E17006B4660 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F357FBE11ACA9E17006B4660 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F357FBEF1ACA9E17006B4660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F357FBF01ACA9E17006B4660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F357FBF21ACA9E17006B4660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = KKAlertViewSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F357FBF31ACA9E17006B4660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = KKAlertViewSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F357FBF51ACA9E17006B4660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KKAlertViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKAlertViewSample.app/KKAlertViewSample";
+			};
+			name = Debug;
+		};
+		F357FBF61ACA9E17006B4660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KKAlertViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKAlertViewSample.app/KKAlertViewSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F357FBCD1ACA9E17006B4660 /* Build configuration list for PBXProject "KKAlertViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357FBEF1ACA9E17006B4660 /* Debug */,
+				F357FBF01ACA9E17006B4660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F357FBF11ACA9E17006B4660 /* Build configuration list for PBXNativeTarget "KKAlertViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357FBF21ACA9E17006B4660 /* Debug */,
+				F357FBF31ACA9E17006B4660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F357FBF41ACA9E17006B4660 /* Build configuration list for PBXNativeTarget "KKAlertViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357FBF51ACA9E17006B4660 /* Debug */,
+				F357FBF61ACA9E17006B4660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F357FBCA1ACA9E17006B4660 /* Project object */;
+}

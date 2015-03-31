@@ -1,6 +1,6 @@
 //
 //  BackView.swift
-//  PTAlertBackgroundView
+//  KKAlertBackgroundView
 //
 //  Created by 小橋　一輝 on 2015/03/27.
 //  Copyright (c) 2015年 kobashi kazuki. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PTAlertBackgroundView: UIView {
+class KKAlertBackgroundView: UIView {
     var alertView: UIView?
     var cancel: (() -> Void)?
     var animator: UIDynamicAnimator!
@@ -23,8 +23,8 @@ class PTAlertBackgroundView: UIView {
     func setAlertView(alertView: UIView) {
         self.alertView = alertView
         self.alertView!.center.x = self.center.x
-        if alertView is PTAlertView {
-            var alertView = self.alertView as PTAlertView
+        if alertView is KKAlertView {
+            var alertView = self.alertView as KKAlertView
             alertView.delegate = self
         }
         addSubview(alertView)
@@ -80,8 +80,8 @@ class PTAlertBackgroundView: UIView {
     }
 }
 
-extension PTAlertBackgroundView: PTAlertViewDelegate {
-    func dismissAlertView(alertView: PTAlertView) {
+extension KKAlertBackgroundView: KKAlertViewDelegate {
+    func dismissAlertView(alertView: KKAlertView) {
         dismissAlertView()
     }
 }

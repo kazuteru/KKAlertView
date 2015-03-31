@@ -1,6 +1,6 @@
 //
-//  PTAlertViewController.swift
-//  PTAlertView
+//  KKAlertViewController.swift
+//  KKAlertView
 //
 //  Created by 小橋　一輝 on 2015/03/26.
 //  Copyright (c) 2015年 kobashi kazuki. All rights reserved.
@@ -11,9 +11,9 @@ import UIKit
 /**
 *  Alertの挙動を操作する.
 */
-class PTAlertViewController: UIViewController {
+class KKAlertViewController: UIViewController {
     
-    var backView: PTAlertBackgroundView!
+    var backView: KKAlertBackgroundView!
     var alertWindow: UIWindow?
     //AnimationPattern
     var pattern: AnyObject?
@@ -22,7 +22,7 @@ class PTAlertViewController: UIViewController {
     //背景色を設定
     var backgroundViewColor: UIColor?
     
-    var defaultAlertView: DefaultPTAlertView?
+    var defaultAlertView: DefaultKKAlertView?
     
     override init() {
         super.init()
@@ -37,13 +37,13 @@ class PTAlertViewController: UIViewController {
        super.init()
     }
     
-    init(view: PTAlertView) {
+    init(view: KKAlertView) {
        super.init()
     }
     
     init(title: String?, message: String?) {
         super.init()
-        defaultAlertView = DefaultPTAlertView(title: title, message: message)
+        defaultAlertView = DefaultKKAlertView(title: title, message: message)
     }
     
     required init(coder aDecoder: NSCoder) {
@@ -59,7 +59,7 @@ class PTAlertViewController: UIViewController {
     }
     
     func showAlert(alertView: UIView) {
-        backView = PTAlertBackgroundView(frame: CGRect(x: 0.0,
+        backView = KKAlertBackgroundView(frame: CGRect(x: 0.0,
             y: -alertView.bounds.height,
             width: UIScreen.mainScreen().bounds.width,
             height: UIScreen.mainScreen().bounds.height + alertView.bounds.height))
