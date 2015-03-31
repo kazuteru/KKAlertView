@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "PTAlertView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PTAlertView."
+s.summary          = "PTAlertView contains Path like appearing animation and some functions."
   s.homepage         = "https://github.com/kazuteru/PTAlertView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
