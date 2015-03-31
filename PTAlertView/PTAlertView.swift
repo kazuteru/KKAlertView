@@ -9,26 +9,26 @@
 import UIKit
 
 @objc protocol PTAlertViewDelegate {
-    optional func dismissAlertView(PTAlertView: PTAlertView)
+    optional func dismissAlertView(alertView: PTAlertView)
 }
 
-class PTAlertView: UIView {
+public class PTAlertView: UIView {
     
     var delegate: PTAlertViewDelegate? = nil
     
-    override init () {
+    public override init () {
         super.init()
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    func dismiss() {
-        if let delegate = delegate { delegate.dismissAlertView!(self) }
+    public func dismiss() {
+        delegate?.dismissAlertView?(self)
     }
 }

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PTAlertView
 
 class SampleAlertView: PTAlertView {
     

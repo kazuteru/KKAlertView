@@ -1,0 +1,22 @@
+{
+  "name": "PTAlertView",
+  "version": "0.1.0",
+  "summary": "A short description of PTAlertView.",
+  "homepage": "https://github.com/kazuteru/PTAlertView",
+  "license": "MIT",
+  "authors": {
+    "kazuteru": "kazuteru.koba@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kazuteru/PTAlertView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "PTAlertView/*.{swift}",
+    "PTAlertView/AnimationManager/*.{swift}"
+  ]
+}

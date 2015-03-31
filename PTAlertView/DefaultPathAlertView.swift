@@ -8,35 +8,35 @@
 
 import UIKit
 
-class DefaultPTAlertView: PTAlertView {
+public class DefaultPTAlertView: PTAlertView {
     
-    var title: String?
-    var message: String?
-    var actions: [AlertAction] = [AlertAction]()
+    public var title: String?
+    public var message: String?
+    public var actions: [AlertAction] = [AlertAction]()
     
-    override init () {
+    public override init () {
         super.init()
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    init(title: String?, message: String?) {
+    public init(title: String?, message: String?) {
         super.init()
         self.title = title;
         self.message = message;
     }
 
-    required  init(coder aDecoder: NSCoder) {
+    public required  init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func addAction(action: AlertAction) {
+    public func addAction(action: AlertAction) {
         actions.append(action)
     }
     
-    func createAlertView() -> Self {
+    public func createAlertView() -> Self {
         var y: CGFloat = 0.0
         self.frame = CGRect(x: 0.0, y: 0.0, width: 280.0, height: 0.0)
         self.backgroundColor = UIColor.whiteColor()
@@ -118,7 +118,7 @@ class DefaultPTAlertView: PTAlertView {
         return view
     }
     
-    func executeAction(button: UIButton) {
+    public func executeAction(button: UIButton) {
         if let action = actions[button.tag].action {
             action()
         }

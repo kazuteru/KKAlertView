@@ -8,19 +8,19 @@
 
 import UIKit
 
-class PTAlertBackgroundView: UIView {
-    var alertView: UIView?
-    var cancel: (() -> Void)?
-    var animator: UIDynamicAnimator!
-    var backgroundColorShowingAlert = UIColor.blackColor().colorWithAlphaComponent(0.2)
+public class PTAlertBackgroundView: UIView {
+    public var alertView: UIView?
+    public var cancel: (() -> Void)?
+    public var animator: UIDynamicAnimator!
+    public var backgroundColorShowingAlert = UIColor.blackColor().colorWithAlphaComponent(0.2)
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         animator = UIDynamicAnimator(referenceView: self)
         backgroundColor = self.backgroundColorShowingAlert.colorWithAlphaComponent(0.0)
     }
     
-    func setAlertView(alertView: UIView) {
+    public func setAlertView(alertView: UIView) {
         self.alertView = alertView
         self.alertView!.center.x = self.center.x
         if alertView is PTAlertView {
@@ -30,11 +30,11 @@ class PTAlertBackgroundView: UIView {
         addSubview(alertView)
     }
     
-    required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func showAlertView() {
+    public func showAlertView() {
         //managerを使用
         ShowAnimationManager.sharedInstance.attachmentAnimation(self.animator,
             view: alertView!,
@@ -44,7 +44,7 @@ class PTAlertBackgroundView: UIView {
     }
     
     
-    func dismissAlertView() {
+    public func dismissAlertView() {
         //gravityBehaviorがdelegateをcatchできないため、UIViewのanimeのdelayを利用
         DismissAnimationManager.sharedInstance.gravityAnimation(self.animator,
             view: alertView!,
@@ -52,7 +52,7 @@ class PTAlertBackgroundView: UIView {
             completion: { if let cancel = self.cancel { cancel() } })
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    public override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         if let alertView = alertView {
             let location = touches.anyObject()?.locationInView(self)
             if checkTouch(location!) {
@@ -61,7 +61,7 @@ class PTAlertBackgroundView: UIView {
         }
     }
     
-    func checkTouch(location: CGPoint) -> Bool {
+    public func checkTouch(location: CGPoint) -> Bool {
         if let alertView = alertView {
             if location.x < alertView.frame.origin.x {
                 return true
@@ -81,7 +81,7 @@ class PTAlertBackgroundView: UIView {
 }
 
 extension PTAlertBackgroundView: PTAlertViewDelegate {
-    func dismissAlertView(alertView: PTAlertView) {
+    public func dismissAlertView(alertView: PTAlertView) {
         dismissAlertView()
     }
 }

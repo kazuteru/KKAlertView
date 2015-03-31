@@ -8,11 +8,11 @@
 
 import UIKit
 
-class AlertAction: NSObject {
-    var title: String = ""
-    var action: (() -> Void)?
+public class AlertAction: NSObject {
+    public var title: String = ""
+    public var action: (() -> Void)?
     
-    init(title: String, action: (() -> Void)?) {
+    public init(title: String, action: (() -> Void)?) {
         self.title = title
         self.action = action
     }

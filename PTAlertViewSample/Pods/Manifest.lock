@@ -1,0 +1,14 @@
+PODS:
+  - PTAlertView (0.1.0)
+
+DEPENDENCIES:
+  - PTAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  PTAlertView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PTAlertView: 59fa85ba12f82ee6e846516a659f232c01322f96
+
+COCOAPODS: 0.36.0

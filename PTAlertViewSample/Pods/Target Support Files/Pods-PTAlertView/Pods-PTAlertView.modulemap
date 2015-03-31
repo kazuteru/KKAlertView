@@ -1,0 +1,6 @@
+framework module PTAlertView {
+  umbrella header "Pods-PTAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
