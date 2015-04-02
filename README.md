@@ -8,11 +8,17 @@ KKAlertView
 [![Version](https://img.shields.io/cocoapods/v/KKAlertView.svg?style=flat)](http://cocoapods.org/pods/KKAlertView)
 [![License](https://img.shields.io/cocoapods/l/KKAlertView.svg?style=flat)](http://cocoapods.org/pods/KKAlertView)
 
-![PTAlertView](./SampleImage/alertView.gif)   
+![KKAlertView](./SampleImage/alertView.gif)   
 
 
-[kazuteru/PTAlertView]
-(https://github.com/kazuteru/KKAlertView) - You can easily display AlertView with the original animation
+[kazuteru/KKAlertView]
+(https://github.com/kazuteru/KKAlertView) - You can easily display AlertView with the original animation like Path
+
+
+## Features
+
+- [x] AlertView with the original animation like Path
+- [x] You can easily add an original animation to AlertView
 
 ## Installation
 
@@ -26,6 +32,23 @@ it, simply add the following line to your Podfile:
 #### Manually
 
 Add the [KKAlertView](./KKAlertView) directory to your project. 
+
+## Usage
+
+If you install from cocoapods, You have to write `import KKAlertView`.
+
+#### Code
+
+You can use KKAlertViewController like UIAlertConroller.
+
+```swift
+	let alertViewController = KKAlertViewController(title: "2 button alert", message: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?")
+	alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
+    alertViewController.addAction(title: "button B", action: { println("Hello EX2") })
+    alertViewController.showAlert()
+}
+```
+![KKAlertView](./SampleImage/alertViewSample.png) 
 
 ## Requirements
 

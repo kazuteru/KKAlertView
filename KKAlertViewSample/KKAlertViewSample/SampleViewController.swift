@@ -66,18 +66,18 @@ extension SampleViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         switch indexPath.row {
         case 0:
-            var alertViewController = KKAlertViewController(title: "1 button alert", message: "How many bagels could a beagle bake if a beagle could bake bagels?")
+            let alertViewController = KKAlertViewController(title: "1 button alert", message: "How many bagels could a beagle bake if a beagle could bake bagels?")
             alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
             alertViewController.showAlert()
             break
         case 1:
-            var alertViewController = KKAlertViewController(title: "2 button alert", message: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?")
+            let alertViewController = KKAlertViewController(title: "2 button alert", message: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?")
             alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
             alertViewController.addAction(title: "button B", action: { println("Hello EX2") })
             alertViewController.showAlert()
             break
         case 2:
-            var alertViewController = KKAlertViewController(title: "3 button alert", message: "One smart fellow, he felt smart.Two smart fellows, they felt smart. Three smart fellows, they all felt smart.")
+            let alertViewController = KKAlertViewController(title: "3 button alert", message: "One smart fellow, he felt smart.Two smart fellows, they felt smart. Three smart fellows, they all felt smart.")
             alertViewController.addAction(title: "button A", action: { println("Hello EX1") })
             alertViewController.addAction(title: "button B", action: { println("Hello EX2") })
             alertViewController.addAction(title: "button C", action: { println("Hello EX3") })
@@ -89,7 +89,7 @@ extension SampleViewController: UICollectionViewDelegate {
             break
         case 4:
             let view = UINib(nibName: "SampleRedAlertView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as SampleAlertView
-            var alertViewController = KKAlertViewController()
+            let alertViewController = KKAlertViewController()
             alertViewController.backgroundViewColor = UIColor.redColor().colorWithAlphaComponent(0.5)
             alertViewController.showAlert(view)
             break
