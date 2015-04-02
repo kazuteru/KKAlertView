@@ -14,12 +14,6 @@ KKAlertView
 [kazuteru/PTAlertView]
 (https://github.com/kazuteru/KKAlertView) - You can easily display AlertView with the original animation
 
-## Description
-
-## Installation
-
-#### CocoaPods
-
 ## Installation
 
 #### CocoaPods
@@ -37,8 +31,6 @@ Add the [KKAlertView](./KKAlertView) directory to your project.
 
 - Xcode 6.1 or greater
 - iOS7.0(manually only) or greater
-
-## Contribution
 
 ## Author
 Kobashi Kazuki, [kazuteru.koba@gmail.com](kazuteru.koba@gmail.com)
