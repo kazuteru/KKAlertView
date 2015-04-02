@@ -24,30 +24,30 @@ public class KKAlertViewController: UIViewController {
     
     var defaultAlertView: DefaultKKAlertView?
     
-//    public init() {
-//        super.init()
-//    }
+    public override init() {
+        super.init()
+    }
     
-//    public override init(nibName:String!, bundle: NSBundle!) {
-//        super.init(nibName: nibName, bundle: bundle)
-//    }
+    public override init(nibName:String!, bundle: NSBundle!) {
+        super.init(nibName: nibName, bundle: bundle)
+    }
     
-//    public init(view :UIView) {
-//       super.init()
-//    }
+    public init(view :UIView) {
+       super.init()
+    }
     
-//    public init(view: KKAlertView) {
-//       super.init()
-//    }
+    public init(view: KKAlertView) {
+       super.init()
+    }
     
-    public convenience init(title: String?, message: String?) {
-        self.init()
+    public init(title: String?, message: String?) {
+        super.init()
         defaultAlertView = DefaultKKAlertView(title: title, message: message)
     }
     
-//    public required init(coder aDecoder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
+    public required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     public func addAction(#title: String, action: (() -> Void)?) {
         if let defaultAlertView = defaultAlertView { defaultAlertView.addAction(AlertAction(title: title, action: action)) }
@@ -64,7 +64,7 @@ public class KKAlertViewController: UIViewController {
             height: UIScreen.mainScreen().bounds.height + alertView.bounds.height))
         backView.cancel = { self.dismissPTAlertWindow() }
         if let backgroundViewColor = backgroundViewColor { backView.backgroundColorShowingAlert = backgroundViewColor }
-        backView.alertView = alertView
+        backView.setAlertView(alertView)
         view.addSubview(backView)
         showPTAlertWindow()
     }
@@ -89,7 +89,8 @@ public class KKAlertViewController: UIViewController {
             println("deleteWindow")
             let application = UIApplication.sharedApplication()
             if let nextWindowIndex = application.windows.indexesOfObject(alertWindow) {
-                if let nextWindow = application.windows[nextWindowIndex] as? UIWindow { nextWindow.makeKeyAndVisible() }
+                let nextWindow: UIWindow = application.windows[nextWindowIndex] as UIWindow
+                nextWindow.makeKeyAndVisible()
                 self.alertWindow = nil
             }
         }
@@ -99,8 +100,8 @@ public class KKAlertViewController: UIViewController {
 extension Array {
     func indexesOfObject<T : Equatable>(object:T) -> NSInteger? {
         for (index, obj) in enumerate(self) {
-            if let obj = obj as? T {
-                if obj == object { return index }
+            if obj as T == object {
+                return index
             }
         }
         return nil

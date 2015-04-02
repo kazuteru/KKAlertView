@@ -84,11 +84,11 @@ extension SampleViewController: UICollectionViewDelegate {
             alertViewController.showAlert()
             break
         case 3:
-            let view: SampleAlertView = UINib(nibName: "SampleAlertView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as SampleAlertView
+            let view = UINib(nibName: "SampleAlertView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as SampleAlertView
             KKAlertViewController().showAlert(view)
             break
         case 4:
-            let view: SampleAlertView = UINib(nibName: "SampleRedAlertView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as SampleAlertView
+            let view = UINib(nibName: "SampleRedAlertView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as SampleAlertView
             var alertViewController = KKAlertViewController()
             alertViewController.backgroundViewColor = UIColor.redColor().colorWithAlphaComponent(0.5)
             alertViewController.showAlert(view)

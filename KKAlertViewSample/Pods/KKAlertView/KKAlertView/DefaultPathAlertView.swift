@@ -14,20 +14,23 @@ class DefaultKKAlertView: KKAlertView {
     var message: String?
     var actions: [AlertAction] = [AlertAction]()
     
-//    
-//    override init(frame: CGRect) {
-//        super.init(frame: frame)
-//    }
+    override init () {
+        super.init()
+    }
     
-    convenience init(title: String?, message: String?) {
-        self.init()
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    init(title: String?, message: String?) {
+        super.init()
         self.title = title;
         self.message = message;
     }
 
-//    required  override init(coder aDecoder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
+    required  init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     func addAction(action: AlertAction) {
         actions.append(action)
@@ -100,7 +103,7 @@ class DefaultKKAlertView: KKAlertView {
     private func createButton(frame: CGRect, tag: NSInteger) -> UIButton {
         var button = UIButton(frame: frame)
         button.tag = tag
-        if let settedBorderButton = setUpperBorder(button) as? UIButton { button = settedBorderButton }
+        button = setUpperBorder(button) as! UIButton
         button.setTitle(actions[tag].title, forState: .Normal)
         button.setTitleColor(UIColor.cyanColor(), forState: .Normal)
         button.addTarget(self, action: "executeAction:", forControlEvents: .TouchUpInside)

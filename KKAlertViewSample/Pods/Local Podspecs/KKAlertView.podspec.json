@@ -8,7 +8,7 @@
     "kazuteru": "kazuteru.koba@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/KKAlertView.git",
+    "git": "https://github.com/kazuteru/KKAlertView.git",
     "tag": "0.1.1"
   },
   "platforms": {

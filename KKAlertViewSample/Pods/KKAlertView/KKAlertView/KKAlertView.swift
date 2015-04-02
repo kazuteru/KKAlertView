@@ -16,13 +16,17 @@ public class KKAlertView: UIView {
     
     public var delegate: KKAlertViewDelegate?
     
-//    public override init(frame: CGRect) {
-//        super.init(frame: frame)
-//    }
-//    
-//    public required init(coder aDecoder: NSCoder) {
-//        super.init(coder: aDecoder)
-//    }
+    init () {
+        super.init()
+    }
+    
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    public required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
     
     public func dismiss() {
         if let delegate = delegate { delegate.dismissAlertView!(self) }

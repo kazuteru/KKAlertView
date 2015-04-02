@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  KKAlertView: 7ae68959bb415798accbea5e859cc1f5d9d698f6
+  KKAlertView: abf7b0d26cd119587240ad44c76d4435f643f71a
 
 COCOAPODS: 0.36.0

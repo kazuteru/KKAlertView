@@ -7,248 +7,248 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A03D794E0A12F62E7891514 /* Pods-KKAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F32958A0D603E7E41050F4A8 /* Pods-KKAlertView-dummy.m */; };
-		2EA17AC9ABBAAE1972E0AD7A /* DefaultPathAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54ED0C9241A68D083DBA871 /* DefaultPathAlertView.swift */; };
-		3C3F5C94E3A1D1AF2887BE6A /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C07463CFED80719AF5E8D71D /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4891A39096FA25D531E917D8 /* DismissAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55018D3039A15C0E1A8C8074 /* DismissAnimationManager.swift */; };
-		4BFC43734A88D2B61333A054 /* KKAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961AF55C8206C6FF36D7A69F /* KKAlertView.swift */; };
-		4E9276EFB9AF657AF9D9494C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343ADC340F16863B3AA5556E /* Foundation.framework */; };
-		60DF21846CB5440293CF4201 /* KKAlertBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14A5B9D61B80A9B74EFDB1 /* KKAlertBackgroundView.swift */; };
-		8E5E52AFE5B47E3172E0CD96 /* KKAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F85ECADCC12ED29F9DB0F /* KKAlertViewController.swift */; };
-		94D31E3FDA7EB9D4A86AB384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343ADC340F16863B3AA5556E /* Foundation.framework */; };
-		973B1D7BED7EE8EE1AF7E7E3 /* Pods-KKAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83250B926A9CF3FFB6ADC380 /* Pods-KKAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB077031D3813BFD33488374 /* ShowAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323DBC74ED7F7D83BA5143AB /* ShowAnimationManager.swift */; };
-		BB4FB4F6F08249C72C8ADC0A /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE354B85433AE79D52B0C7F2 /* Pods-dummy.m */; };
-		F8E398C5815E18D06DC93D04 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A590595D0756046F8A21F93B /* AlertAction.swift */; };
+		043B53A6A3CEC1F9C3D8A35A /* DefaultPathAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44047D12E38D3B78F8E306 /* DefaultPathAlertView.swift */; };
+		1C8CABC1E645CFEF1CADFBB4 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169331270680899FF4375AEC /* AlertAction.swift */; };
+		309642AC19623D65F902015A /* KKAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D2C132B3E32039CB0F646E /* KKAlertViewController.swift */; };
+		436F823AD8B2544879779F5E /* ShowAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E369FEA1CEFCF99DD059B8 /* ShowAnimationManager.swift */; };
+		4BB399AD7C44FF7A2F45AE69 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E389F025B0DED772DD8E08BB /* Pods-dummy.m */; };
+		540F86CD27C5441C8BF84FF6 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C9CEEB33293C43A4C937F7 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		806F19514C661F16A351DA38 /* KKAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A1A94621582ACADF96D2F /* KKAlertView.swift */; };
+		8F112BC65840607B2D39D07F /* DismissAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDF624FB2B4E5AE544EB0A /* DismissAnimationManager.swift */; };
+		92531C12E0D0859A08A7C431 /* Pods-KKAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D755DDC4F5ED3A604EA6C4E /* Pods-KKAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9390805315875A1DB6CF26FA /* Pods-KKAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D1299B349A92009F8EE44 /* Pods-KKAlertView-dummy.m */; };
+		AC03CB110BA0F7850E4E83FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6BB547DDD08AAC42428B2 /* Foundation.framework */; };
+		D67E0A8FAF978A6152A5A454 /* KKAlertBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D9D8BB70B0DE93595B611 /* KKAlertBackgroundView.swift */; };
+		F448A5A96FFD34F40642F044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6BB547DDD08AAC42428B2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		13D8BA99C68C1496132A4DD5 /* PBXContainerItemProxy */ = {
+		D057AE278B30E5CFFC61C901 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7DDE87A787090BA564A19DDB /* Project object */;
+			containerPortal = 722BF525130E36B04622A745 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 614DC2FA1DBF19A4090C7EA3;
+			remoteGlobalIDString = 24A620E943DC8C3E439C7246;
 			remoteInfo = "Pods-KKAlertView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D9B67BE8CC334818D21142E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		10A62535CFA1B97B7BD5DC06 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		235FD32F8F611906C4580F6B /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		29901CCFE32D631D611FCCAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A05C154688F5C04EA23849D /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		323DBC74ED7F7D83BA5143AB /* ShowAnimationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowAnimationManager.swift; sourceTree = "<group>"; };
-		343ADC340F16863B3AA5556E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		418D093D0F4BD5B48A4CB38E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		43158CBD7BC18B6E45D9BB3E /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		4E4751214A326040935B5B58 /* KKAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55018D3039A15C0E1A8C8074 /* DismissAnimationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DismissAnimationManager.swift; sourceTree = "<group>"; };
-		55D8EA0A8293347920ADC1E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		5CE771555E90A79EE9CDA770 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5E14A5B9D61B80A9B74EFDB1 /* KKAlertBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KKAlertBackgroundView.swift; sourceTree = "<group>"; };
-		615D5D1365587288842939CB /* Pods-KKAlertView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKAlertView-Private.xcconfig"; sourceTree = "<group>"; };
-		7A6014763AFF874090E3B2D0 /* Pods-KKAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KKAlertView.modulemap"; sourceTree = "<group>"; };
-		83250B926A9CF3FFB6ADC380 /* Pods-KKAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKAlertView-umbrella.h"; sourceTree = "<group>"; };
-		8E1FA49F51EE6458DCDFC534 /* Pods-KKAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKAlertView-prefix.pch"; sourceTree = "<group>"; };
-		961AF55C8206C6FF36D7A69F /* KKAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KKAlertView.swift; sourceTree = "<group>"; };
-		A48FDD47396B7718738ED283 /* Pods-KKAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKAlertView.xcconfig"; sourceTree = "<group>"; };
-		A590595D0756046F8A21F93B /* AlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
-		AD972AD99801DFEE337D7475 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1A6642E6BE674B9DB2D9497 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		B54ED0C9241A68D083DBA871 /* DefaultPathAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultPathAlertView.swift; sourceTree = "<group>"; };
-		B56F85ECADCC12ED29F9DB0F /* KKAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KKAlertViewController.swift; sourceTree = "<group>"; };
-		C07463CFED80719AF5E8D71D /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		EE354B85433AE79D52B0C7F2 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		F32958A0D603E7E41050F4A8 /* Pods-KKAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKAlertView-dummy.m"; sourceTree = "<group>"; };
-		FDE639133FEFE67C38F8D565 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073A8EBC2E33F15AB9CDFF1C /* Pods-KKAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KKAlertView.modulemap"; sourceTree = "<group>"; };
+		0D755DDC4F5ED3A604EA6C4E /* Pods-KKAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKAlertView-umbrella.h"; sourceTree = "<group>"; };
+		169331270680899FF4375AEC /* AlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		2B6A1A94621582ACADF96D2F /* KKAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KKAlertView.swift; sourceTree = "<group>"; };
+		3E168585616E21ED508B8241 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		3FD6BB547DDD08AAC42428B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EFDF624FB2B4E5AE544EB0A /* DismissAnimationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DismissAnimationManager.swift; sourceTree = "<group>"; };
+		610D9D8BB70B0DE93595B611 /* KKAlertBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KKAlertBackgroundView.swift; sourceTree = "<group>"; };
+		7D441D5EC41DD4F42BF57061 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		85EA6E7FA7792AB66A0D2F43 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		8A8D1299B349A92009F8EE44 /* Pods-KKAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKAlertView-dummy.m"; sourceTree = "<group>"; };
+		A082E8AB6A95314204834235 /* Pods-KKAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKAlertView.xcconfig"; sourceTree = "<group>"; };
+		A7C9CEEB33293C43A4C937F7 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		B2629B9ED7DD748D0DA52876 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA48ECD40E4F8F91AADEADCA /* Pods-KKAlertView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKAlertView-Private.xcconfig"; sourceTree = "<group>"; };
+		BD8A3E8E1D9767BBAD62B12C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		BD974E158ED61D30ED412CB9 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3CD82201D62DC8B3F8E04D4 /* Pods-KKAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKAlertView-prefix.pch"; sourceTree = "<group>"; };
+		C88E9FB8A9668CCE0300EF5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA44047D12E38D3B78F8E306 /* DefaultPathAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultPathAlertView.swift; sourceTree = "<group>"; };
+		CF4FCF3282400803723DE933 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFBAC251DE5472B5A6822B39 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		D31E6BABF4CC08C2B7B17AC9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E36F5C108DD1A55859FD1277 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E389F025B0DED772DD8E08BB /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E4E369FEA1CEFCF99DD059B8 /* ShowAnimationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowAnimationManager.swift; sourceTree = "<group>"; };
+		E8D2C132B3E32039CB0F646E /* KKAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KKAlertViewController.swift; sourceTree = "<group>"; };
+		F410F97E2A7D8E92C313AABA /* KKAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52E831724558C4A842FE27F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14A6FD4BC23AA7C0FB0D7B10 /* Frameworks */ = {
+		1D1D34F77B8A3E7D50471E91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D31E3FDA7EB9D4A86AB384 /* Foundation.framework in Frameworks */,
+				F448A5A96FFD34F40642F044 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6AA02D3D492DD82DE40E2BF /* Frameworks */ = {
+		39F462062D53095DD5DCA8AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9276EFB9AF657AF9D9494C /* Foundation.framework in Frameworks */,
+				AC03CB110BA0F7850E4E83FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17AA82E4C970774C3A6EBA06 /* KKAlertView */ = {
+		177B2973DBD5088D2156B3CF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A590595D0756046F8A21F93B /* AlertAction.swift */,
-				B54ED0C9241A68D083DBA871 /* DefaultPathAlertView.swift */,
-				5E14A5B9D61B80A9B74EFDB1 /* KKAlertBackgroundView.swift */,
-				961AF55C8206C6FF36D7A69F /* KKAlertView.swift */,
-				B56F85ECADCC12ED29F9DB0F /* KKAlertViewController.swift */,
-				AF23BCE55FDC12A5AEF1693E /* AnimationManager */,
+				465917F1A3509EE37B6C4356 /* KKAlertView */,
 			);
-			path = KKAlertView;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4D447361F13AC28CBBF0E7F7 /* Frameworks */ = {
+		26EC71497D17AFC1687A8707 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5500383F85B31BE6E85EE08F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		50FBB60A6D63AB70A526D767 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				29901CCFE32D631D611FCCAA /* Info.plist */,
-				7A6014763AFF874090E3B2D0 /* Pods-KKAlertView.modulemap */,
-				A48FDD47396B7718738ED283 /* Pods-KKAlertView.xcconfig */,
-				615D5D1365587288842939CB /* Pods-KKAlertView-Private.xcconfig */,
-				F32958A0D603E7E41050F4A8 /* Pods-KKAlertView-dummy.m */,
-				8E1FA49F51EE6458DCDFC534 /* Pods-KKAlertView-prefix.pch */,
-				83250B926A9CF3FFB6ADC380 /* Pods-KKAlertView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "KKAlertViewSample/Pods/Target Support Files/Pods-KKAlertView";
-			sourceTree = "<group>";
-		};
-		5500383F85B31BE6E85EE08F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				343ADC340F16863B3AA5556E /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7062ED110C5F9574AB699329 = {
-			isa = PBXGroup;
-			children = (
-				5CE771555E90A79EE9CDA770 /* Podfile */,
-				E116EC5CF01F7F66A810CF33 /* Development Pods */,
-				4D447361F13AC28CBBF0E7F7 /* Frameworks */,
-				DF0481F6C130A55A737CE45B /* Products */,
-				E432C11D2C5E376CE696A874 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A87D1B4A90E0A75A192B2ACA /* KKAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				17AA82E4C970774C3A6EBA06 /* KKAlertView */,
-				50FBB60A6D63AB70A526D767 /* Support Files */,
-			);
-			name = KKAlertView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AF23BCE55FDC12A5AEF1693E /* AnimationManager */ = {
-			isa = PBXGroup;
-			children = (
-				55018D3039A15C0E1A8C8074 /* DismissAnimationManager.swift */,
-				323DBC74ED7F7D83BA5143AB /* ShowAnimationManager.swift */,
-			);
-			path = AnimationManager;
-			sourceTree = "<group>";
-		};
-		B7D86346AC922132BE1C3F4A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FDE639133FEFE67C38F8D565 /* Info.plist */,
-				B1A6642E6BE674B9DB2D9497 /* Pods.modulemap */,
-				10A62535CFA1B97B7BD5DC06 /* Pods-acknowledgements.markdown */,
-				2A05C154688F5C04EA23849D /* Pods-acknowledgements.plist */,
-				EE354B85433AE79D52B0C7F2 /* Pods-dummy.m */,
-				235FD32F8F611906C4580F6B /* Pods-environment.h */,
-				43158CBD7BC18B6E45D9BB3E /* Pods-frameworks.sh */,
-				0D9B67BE8CC334818D21142E /* Pods-resources.sh */,
-				C07463CFED80719AF5E8D71D /* Pods-umbrella.h */,
-				55D8EA0A8293347920ADC1E0 /* Pods.debug.xcconfig */,
-				418D093D0F4BD5B48A4CB38E /* Pods.release.xcconfig */,
+				F52E831724558C4A842FE27F /* Info.plist */,
+				3E168585616E21ED508B8241 /* Pods.modulemap */,
+				BD974E158ED61D30ED412CB9 /* Pods-acknowledgements.markdown */,
+				CF4FCF3282400803723DE933 /* Pods-acknowledgements.plist */,
+				E389F025B0DED772DD8E08BB /* Pods-dummy.m */,
+				CFBAC251DE5472B5A6822B39 /* Pods-environment.h */,
+				7D441D5EC41DD4F42BF57061 /* Pods-frameworks.sh */,
+				BD8A3E8E1D9767BBAD62B12C /* Pods-resources.sh */,
+				A7C9CEEB33293C43A4C937F7 /* Pods-umbrella.h */,
+				85EA6E7FA7792AB66A0D2F43 /* Pods.debug.xcconfig */,
+				D31E6BABF4CC08C2B7B17AC9 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		DF0481F6C130A55A737CE45B /* Products */ = {
+		465917F1A3509EE37B6C4356 /* KKAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				4E4751214A326040935B5B58 /* KKAlertView.framework */,
-				AD972AD99801DFEE337D7475 /* Pods.framework */,
+				E0733B4A68E8E0B5843A442A /* KKAlertView */,
+				6A24D87FDE011091B189381C /* Support Files */,
+			);
+			name = KKAlertView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6163F68AF71EDB2827BEBF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F410F97E2A7D8E92C313AABA /* KKAlertView.framework */,
+				B2629B9ED7DD748D0DA52876 /* Pods.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E116EC5CF01F7F66A810CF33 /* Development Pods */ = {
+		6A24D87FDE011091B189381C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A87D1B4A90E0A75A192B2ACA /* KKAlertView */,
+				C88E9FB8A9668CCE0300EF5F /* Info.plist */,
+				073A8EBC2E33F15AB9CDFF1C /* Pods-KKAlertView.modulemap */,
+				A082E8AB6A95314204834235 /* Pods-KKAlertView.xcconfig */,
+				BA48ECD40E4F8F91AADEADCA /* Pods-KKAlertView-Private.xcconfig */,
+				8A8D1299B349A92009F8EE44 /* Pods-KKAlertView-dummy.m */,
+				C3CD82201D62DC8B3F8E04D4 /* Pods-KKAlertView-prefix.pch */,
+				0D755DDC4F5ED3A604EA6C4E /* Pods-KKAlertView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "KKAlertViewSample/Pods/Target Support Files/Pods-KKAlertView";
 			sourceTree = "<group>";
 		};
-		E432C11D2C5E376CE696A874 /* Targets Support Files */ = {
+		7F6D0D5B994EC98A983C5DF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B7D86346AC922132BE1C3F4A /* Pods */,
+				BBB195EFA12AFBDF4996E5C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96808B48E8461F43725A208F = {
+			isa = PBXGroup;
+			children = (
+				E36F5C108DD1A55859FD1277 /* Podfile */,
+				177B2973DBD5088D2156B3CF /* Development Pods */,
+				7F6D0D5B994EC98A983C5DF9 /* Frameworks */,
+				6163F68AF71EDB2827BEBF59 /* Products */,
+				D17BC9C9D2A52D5D385E85A0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB195EFA12AFBDF4996E5C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FD6BB547DDD08AAC42428B2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDC9F87D9091B0799BC80D74 /* AnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDF624FB2B4E5AE544EB0A /* DismissAnimationManager.swift */,
+				E4E369FEA1CEFCF99DD059B8 /* ShowAnimationManager.swift */,
+			);
+			path = AnimationManager;
+			sourceTree = "<group>";
+		};
+		D17BC9C9D2A52D5D385E85A0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26EC71497D17AFC1687A8707 /* Pods */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0733B4A68E8E0B5843A442A /* KKAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				169331270680899FF4375AEC /* AlertAction.swift */,
+				CA44047D12E38D3B78F8E306 /* DefaultPathAlertView.swift */,
+				610D9D8BB70B0DE93595B611 /* KKAlertBackgroundView.swift */,
+				2B6A1A94621582ACADF96D2F /* KKAlertView.swift */,
+				E8D2C132B3E32039CB0F646E /* KKAlertViewController.swift */,
+				CDC9F87D9091B0799BC80D74 /* AnimationManager */,
+			);
+			path = KKAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		62B683DD5AECB09499DFB731 /* Headers */ = {
+		C0AF675CCE5E24915710BCB7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973B1D7BED7EE8EE1AF7E7E3 /* Pods-KKAlertView-umbrella.h in Headers */,
+				540F86CD27C5441C8BF84FF6 /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA9EDF6E83DB97B0C33D84D9 /* Headers */ = {
+		E6F5CAE285F884A3080AA3A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C3F5C94E3A1D1AF2887BE6A /* Pods-umbrella.h in Headers */,
+				92531C12E0D0859A08A7C431 /* Pods-KKAlertView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A057190AC46BBA95C97C46C /* Pods */ = {
+		216C08F3EBA55459214461AE /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 547BCCAE3EA81FA29D40ADBB /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = B9D32D3915C25A65B186F46A /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				E037889F9FFA180965F23A6F /* Sources */,
-				B6AA02D3D492DD82DE40E2BF /* Frameworks */,
-				FA9EDF6E83DB97B0C33D84D9 /* Headers */,
+				98ABD1CCE2A5A8E5393097BD /* Sources */,
+				1D1D34F77B8A3E7D50471E91 /* Frameworks */,
+				C0AF675CCE5E24915710BCB7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9DF0289E31D41ECB10002DB1 /* PBXTargetDependency */,
+				2D749E22AFDB01DCCE312E6D /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = AD972AD99801DFEE337D7475 /* Pods.framework */;
+			productReference = B2629B9ED7DD748D0DA52876 /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		614DC2FA1DBF19A4090C7EA3 /* Pods-KKAlertView */ = {
+		24A620E943DC8C3E439C7246 /* Pods-KKAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4965B11EF0942B546BF17ED /* Build configuration list for PBXNativeTarget "Pods-KKAlertView" */;
+			buildConfigurationList = 096CE226CEE5884CDBBF7F78 /* Build configuration list for PBXNativeTarget "Pods-KKAlertView" */;
 			buildPhases = (
-				1A3297C132DE0CA65EED96AC /* Sources */,
-				14A6FD4BC23AA7C0FB0D7B10 /* Frameworks */,
-				62B683DD5AECB09499DFB731 /* Headers */,
+				1DBB9012D069EF84B8CD027D /* Sources */,
+				39F462062D53095DD5DCA8AC /* Frameworks */,
+				E6F5CAE285F884A3080AA3A6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -256,72 +256,102 @@
 			);
 			name = "Pods-KKAlertView";
 			productName = "Pods-KKAlertView";
-			productReference = 4E4751214A326040935B5B58 /* KKAlertView.framework */;
+			productReference = F410F97E2A7D8E92C313AABA /* KKAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7DDE87A787090BA564A19DDB /* Project object */ = {
+		722BF525130E36B04622A745 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 016369F09CAD0E101C908F60 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 48D6DE539F0B131B2A9CBA54 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7062ED110C5F9574AB699329;
-			productRefGroup = DF0481F6C130A55A737CE45B /* Products */;
+			mainGroup = 96808B48E8461F43725A208F;
+			productRefGroup = 6163F68AF71EDB2827BEBF59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A057190AC46BBA95C97C46C /* Pods */,
-				614DC2FA1DBF19A4090C7EA3 /* Pods-KKAlertView */,
+				216C08F3EBA55459214461AE /* Pods */,
+				24A620E943DC8C3E439C7246 /* Pods-KKAlertView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A3297C132DE0CA65EED96AC /* Sources */ = {
+		1DBB9012D069EF84B8CD027D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E398C5815E18D06DC93D04 /* AlertAction.swift in Sources */,
-				2EA17AC9ABBAAE1972E0AD7A /* DefaultPathAlertView.swift in Sources */,
-				4891A39096FA25D531E917D8 /* DismissAnimationManager.swift in Sources */,
-				60DF21846CB5440293CF4201 /* KKAlertBackgroundView.swift in Sources */,
-				4BFC43734A88D2B61333A054 /* KKAlertView.swift in Sources */,
-				8E5E52AFE5B47E3172E0CD96 /* KKAlertViewController.swift in Sources */,
-				2A03D794E0A12F62E7891514 /* Pods-KKAlertView-dummy.m in Sources */,
-				AB077031D3813BFD33488374 /* ShowAnimationManager.swift in Sources */,
+				1C8CABC1E645CFEF1CADFBB4 /* AlertAction.swift in Sources */,
+				043B53A6A3CEC1F9C3D8A35A /* DefaultPathAlertView.swift in Sources */,
+				8F112BC65840607B2D39D07F /* DismissAnimationManager.swift in Sources */,
+				D67E0A8FAF978A6152A5A454 /* KKAlertBackgroundView.swift in Sources */,
+				806F19514C661F16A351DA38 /* KKAlertView.swift in Sources */,
+				309642AC19623D65F902015A /* KKAlertViewController.swift in Sources */,
+				9390805315875A1DB6CF26FA /* Pods-KKAlertView-dummy.m in Sources */,
+				436F823AD8B2544879779F5E /* ShowAnimationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E037889F9FFA180965F23A6F /* Sources */ = {
+		98ABD1CCE2A5A8E5393097BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB4FB4F6F08249C72C8ADC0A /* Pods-dummy.m in Sources */,
+				4BB399AD7C44FF7A2F45AE69 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9DF0289E31D41ECB10002DB1 /* PBXTargetDependency */ = {
+		2D749E22AFDB01DCCE312E6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KKAlertView";
-			target = 614DC2FA1DBF19A4090C7EA3 /* Pods-KKAlertView */;
-			targetProxy = 13D8BA99C68C1496132A4DD5 /* PBXContainerItemProxy */;
+			target = 24A620E943DC8C3E439C7246 /* Pods-KKAlertView */;
+			targetProxy = D057AE278B30E5CFFC61C901 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16C4500F0686AC746D247455 /* Debug */ = {
+		6ED345A70042BC6123A25FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85EA6E7FA7792AB66A0D2F43 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85035F2CF73D2F1EB8643F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,9 +390,9 @@
 			};
 			name = Debug;
 		};
-		41DC3A1223F8A8B1E296FE40 /* Debug */ = {
+		98354BC76D71ECBEDCD373AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55D8EA0A8293347920ADC1E0 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = BA48ECD40E4F8F91AADEADCA /* Pods-KKAlertView-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -371,16 +401,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KKAlertView/Pods-KKAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKAlertView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-KKAlertView/Pods-KKAlertView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
+				PRODUCT_NAME = KKAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -390,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		7FED5B8E21FBCE609BBB0D5D /* Release */ = {
+		9E2A374893BBD09CE970CF7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,9 +452,36 @@
 			};
 			name = Release;
 		};
-		CEBE5B371BCF1684D5832311 /* Release */ = {
+		B355CDCF9DE3C0566D6EE51B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418D093D0F4BD5B48A4CB38E /* Pods.release.xcconfig */;
+			baseConfigurationReference = BA48ECD40E4F8F91AADEADCA /* Pods-KKAlertView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KKAlertView/Pods-KKAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KKAlertView/Pods-KKAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KKAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE783D6C9DA1A01AC79CC582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31E6BABF4CC08C2B7B17AC9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -453,92 +508,37 @@
 			};
 			name = Release;
 		};
-		F14FDFC204A9305A7B4FD14A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 615D5D1365587288842939CB /* Pods-KKAlertView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-KKAlertView/Pods-KKAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-KKAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KKAlertView/Pods-KKAlertView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KKAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F73BF9B6526351BFDDD4B694 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 615D5D1365587288842939CB /* Pods-KKAlertView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-KKAlertView/Pods-KKAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-KKAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KKAlertView/Pods-KKAlertView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KKAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		016369F09CAD0E101C908F60 /* Build configuration list for PBXProject "Pods" */ = {
+		096CE226CEE5884CDBBF7F78 /* Build configuration list for PBXNativeTarget "Pods-KKAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16C4500F0686AC746D247455 /* Debug */,
-				7FED5B8E21FBCE609BBB0D5D /* Release */,
+				98354BC76D71ECBEDCD373AF /* Debug */,
+				B355CDCF9DE3C0566D6EE51B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		547BCCAE3EA81FA29D40ADBB /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		48D6DE539F0B131B2A9CBA54 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41DC3A1223F8A8B1E296FE40 /* Debug */,
-				CEBE5B371BCF1684D5832311 /* Release */,
+				85035F2CF73D2F1EB8643F7A /* Debug */,
+				9E2A374893BBD09CE970CF7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4965B11EF0942B546BF17ED /* Build configuration list for PBXNativeTarget "Pods-KKAlertView" */ = {
+		B9D32D3915C25A65B186F46A /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F14FDFC204A9305A7B4FD14A /* Debug */,
-				F73BF9B6526351BFDDD4B694 /* Release */,
+				6ED345A70042BC6123A25FA0 /* Debug */,
+				BE783D6C9DA1A01AC79CC582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7DDE87A787090BA564A19DDB /* Project object */;
+	rootObject = 722BF525130E36B04622A745 /* Project object */;
 }
